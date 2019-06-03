@@ -1,0 +1,23 @@
+{
+  "name": "thorough-cli",
+  "version": "0.1.0",
+  "description": "A CLI tool for quickly bootstrapping a new project that adheres to the Thorough guidelines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorough-dev/thorough-cli.git"
+  },
+  "keywords": [],
+  "author": "Zachary Jones <zachary@thorough.company> (https://thorough.company)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thorough-dev/thorough-cli/issues"
+  },
+  "homepage": "https://github.com/thorough-dev/thorough-cli#readme",
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
+}
