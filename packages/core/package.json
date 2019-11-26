@@ -1,8 +1,8 @@
 {
   "name": "@thorough/cli-core",
   "version": "0.1.0",
-  "main": "dist/index.js",
-  "devDependencies": {
-    "typescript": "3.7.2"
-  }
+  "bin": {
+    "thor": "dist/main.js"
+  },
+  "main": "dist/index.js"
 }

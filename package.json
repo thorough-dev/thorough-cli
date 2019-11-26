@@ -18,6 +18,14 @@
   },
   "homepage": "https://github.com/thorough-dev/thorough-cli#readme",
   "devDependencies": {
-    "lerna": "^3.18.4"
+    "lerna": "^3.18.4",
+    "@babel/cli": "7.7.0",
+    "@babel/core": "7.7.2",
+    "@babel/preset-env": "7.7.1",
+    "@babel/preset-typescript": "7.7.2",
+    "typescript": "3.7.2"
+  },
+  "dependencies": {
+    "@thorough/cli-core": "file:packages/core"
   }
 }
