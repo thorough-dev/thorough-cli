@@ -1,6 +1,10 @@
 {
   "name": "@thorough/cli-core",
   "version": "0.1.0",
+  "scripts": {
+    "build": "npm run build:js",
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline"
+  },
   "bin": {
     "thor": "dist/main.js"
   },
